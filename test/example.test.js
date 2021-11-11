@@ -5,19 +5,19 @@ import { insertIntoArray, removeFromArray, concatArrays, sliceArray } from '../f
 
 const test = QUnit.test;
 
-test('time to test a function', (expect) => {
-    //Arrange
-    // Set up your arguments and expectations
-    const expected = true;
+// test('time to test a function', (expect) => {
+//     //Arrange
+//     // Set up your arguments and expectations
+//     const expected = true;
     
-    //Act 
-    // Call the function you're testing and set the result to a const
-    const actual = true;
+//     //Act 
+//     // Call the function you're testing and set the result to a const
+//     const actual = true;
 
-    //Expect
-    // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
-});
+//     //Expect
+//     // Make assertions about what is expected versus the actual result
+//     expect.equal(actual, expected);
+// });
 
 test('insertIntoArray test: takes in an array and a value and adds that value to the array', (expect) => {
     const fruits = ['kiwi', 'apple', 'banana'];
